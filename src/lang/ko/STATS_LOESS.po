@@ -1,0 +1,206 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LOESS.R:148
+msgid "The active dataset must have a name, because otherwise it would be closed by this procedure"
+msgstr ""
+"활성 데이터 세트의 이름이 있어야 합니다. 그렇지 않으면 이 프로시저에 의해 닫힙니다."
+
+#: STATS_LOESS.R:151
+msgid "Dependent and independent variables must be specified unless loading a saved model"
+msgstr ""
+"저장된 모형을 로드하지 않은 경우 종속변수와 독립변수를 지정해야 합니다."
+
+#: STATS_LOESS.R:154
+msgid "Cannot save and load model at the same time"
+msgstr ""
+"모형을 동시에 저장하거나 로드할 수 없습니다."
+
+#: STATS_LOESS.R:157
+msgid "Cannot specify model variables if loading a saved model"
+msgstr ""
+"저장된 모형을 로드하는 경우 모형 변수를 지정할 수 없습니다."
+
+#: STATS_LOESS.R:162
+msgid "A maximum of four independent variables can be specified"
+msgstr ""
+"최대 4개의 독립변수를 지정할 수 있습니다."
+
+#: STATS_LOESS.R:174
+msgid "All variables must be scale level numeric: %s"
+msgstr ""
+"모든 변수의 척도 수준 수치는 %s여야 합니다."
+
+#: STATS_LOESS.R:183
+msgid "Output Dataset"
+msgstr ""
+"출력 데이터 세트"
+
+#: STATS_LOESS.R:183
+msgid "Alpha"
+msgstr ""
+"알파"
+
+#: STATS_LOESS.R:183
+msgid "Polynomial Degree"
+msgstr ""
+"다항 차수"
+
+#: STATS_LOESS.R:183
+msgid "Interactions Level"
+msgstr ""
+"상호작용 수준"
+
+#: STATS_LOESS.R:184
+msgid "Family"
+msgstr ""
+"분포족"
+
+#: STATS_LOESS.R:184
+msgid "Normalize"
+msgstr ""
+"정규화"
+
+#: STATS_LOESS.R:184
+msgid "Surface"
+msgstr ""
+"표면"
+
+#: STATS_LOESS.R:184
+msgid "Cell"
+msgstr ""
+"셀"
+
+#: STATS_LOESS.R:184
+msgid "Missing Values"
+msgstr ""
+"결측값"
+
+#: STATS_LOESS.R:184
+msgid "Statistics Computation"
+msgstr ""
+"통계량 계산"
+
+#: STATS_LOESS.R:185
+msgid "Number of Observations"
+msgstr ""
+"관측값 수"
+
+#: STATS_LOESS.R:185
+msgid "Equivalent Number of Parameters"
+msgstr ""
+"동일한 모수의 수"
+
+#: STATS_LOESS.R:185
+msgid "Residual Standard Error"
+msgstr ""
+"잔차 표준오차"
+
+#: STATS_LOESS.R:186
+msgid "Model to Be Saved As"
+msgstr ""
+"모형을 다른 이름으로 저장"
+
+#: STATS_LOESS.R:189
+msgid "Yes"
+msgstr ""
+"예"
+
+#: STATS_LOESS.R:189
+msgid "No"
+msgstr ""
+"아니오"
+
+#: STATS_LOESS.R:192
+msgid "Not saved"
+msgstr ""
+"저장되지 않음"
+
+#: STATS_LOESS.R:195
+msgid "Values"
+msgstr ""
+"값"
+
+#: STATS_LOESS.R:204
+msgid "Model Source"
+msgstr ""
+"모형 소스"
+
+#: STATS_LOESS.R:208
+msgid "LOESS Fit"
+msgstr ""
+"LOESS 적합"
+
+#: STATS_LOESS.R:210
+msgid "Settings and Statistics for Variable %s"
+msgstr ""
+"%s 변수의 설정 및 통계"
+
+#: STATS_LOESS.R:212
+msgid "Summary"
+msgstr ""
+"요약"
+
+#: STATS_LOESS.R:213
+msgid "Predictors: %s"
+msgstr ""
+"예측변수 : %s"
+
+#: STATS_LOESS.R:213
+msgid "Calculated by R function loess"
+msgstr ""
+"R 함수 loess로 계산됨"
+
+#: STATS_LOESS.R:227
+msgid "New x values must be specified if using a model loaded from a file"
+msgstr ""
+"파일에서 로드된 모형을 사용하는 경우 새 x 값을 지정해야 합니다."
+
+#: STATS_LOESS.R:271
+msgid "Predicted Values"
+msgstr ""
+"예측값"
+
+#: STATS_LOESS.R:273
+msgid "Standard Errors"
+msgstr ""
+"표준오차"
+
+#: STATS_LOESS.R:279
+msgid "Failed to create prediction dataset. Dataset name must not already exist: "
+msgstr ""
+"예측 데이터 세트를 작성하지 못했습니다. 데이터 세트 이름이 미리 존재하지 않아야 합니다."
+
+#: STATS_LOESS.R:303
+msgid "As many consecutive x specifications must be supplied as there are variables in the model"
+msgstr ""
+"모형의 변수 개수만큼 연속 x 지정을 제공해야 합니다."
+
+#: STATS_LOESS.R:332
+msgid "Cannot specify both a sequence and a list form for the same x variable"
+msgstr ""
+"동일한 x 변수에 대해 순서 및 목록 형식 모두를 지정할 수 없습니다."
+
+#: STATS_LOESS.R:341
+msgid "Invalid x sequence specification: %s"
+msgstr ""
+"유효하지 않은 x 순서 지정: %s"
+
+
