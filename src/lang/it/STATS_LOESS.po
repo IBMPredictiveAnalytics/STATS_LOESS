@@ -1,0 +1,206 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LOESS.R:148
+msgid "The active dataset must have a name, because otherwise it would be closed by this procedure"
+msgstr ""
+"Il dataset attivo deve avere un nome, altrimenti verrà chiuso da questa procedura"
+
+#: STATS_LOESS.R:151
+msgid "Dependent and independent variables must be specified unless loading a saved model"
+msgstr ""
+"Le variabili dipendenti e indipendenti devono essere specificate a meno che non si carica un modello salvato"
+
+#: STATS_LOESS.R:154
+msgid "Cannot save and load model at the same time"
+msgstr ""
+"Impossibile salvare e caricare il modello allo stesso tempo"
+
+#: STATS_LOESS.R:157
+msgid "Cannot specify model variables if loading a saved model"
+msgstr ""
+"Impossibile specificare le variabili modello se si sta caricando un modello salvato"
+
+#: STATS_LOESS.R:162
+msgid "A maximum of four independent variables can be specified"
+msgstr ""
+"È possibile specificare un massimo di quattro variabili indipendenti"
+
+#: STATS_LOESS.R:174
+msgid "All variables must be scale level numeric: %s"
+msgstr ""
+"Tutte le variabili devono essere numeriche di livello scala: %s"
+
+#: STATS_LOESS.R:183
+msgid "Output Dataset"
+msgstr ""
+"Dataset di output"
+
+#: STATS_LOESS.R:183
+msgid "Alpha"
+msgstr ""
+"Alfa"
+
+#: STATS_LOESS.R:183
+msgid "Polynomial Degree"
+msgstr ""
+"Grado polinomiale"
+
+#: STATS_LOESS.R:183
+msgid "Interactions Level"
+msgstr ""
+"Livello interazioni"
+
+#: STATS_LOESS.R:184
+msgid "Family"
+msgstr ""
+"Famiglia"
+
+#: STATS_LOESS.R:184
+msgid "Normalize"
+msgstr ""
+"Normalizza"
+
+#: STATS_LOESS.R:184
+msgid "Surface"
+msgstr ""
+"Superficie"
+
+#: STATS_LOESS.R:184
+msgid "Cell"
+msgstr ""
+"Cella"
+
+#: STATS_LOESS.R:184
+msgid "Missing Values"
+msgstr ""
+"Valori mancanti"
+
+#: STATS_LOESS.R:184
+msgid "Statistics Computation"
+msgstr ""
+"Calcolo delle statistiche"
+
+#: STATS_LOESS.R:185
+msgid "Number of Observations"
+msgstr ""
+"Numero di osservazioni"
+
+#: STATS_LOESS.R:185
+msgid "Equivalent Number of Parameters"
+msgstr ""
+"Numero di parametri equivalente"
+
+#: STATS_LOESS.R:185
+msgid "Residual Standard Error"
+msgstr ""
+"Errore standard residui"
+
+#: STATS_LOESS.R:186
+msgid "Model to Be Saved As"
+msgstr ""
+"Modello da salvare come"
+
+#: STATS_LOESS.R:189
+msgid "Yes"
+msgstr ""
+"Sì"
+
+#: STATS_LOESS.R:189
+msgid "No"
+msgstr ""
+"No"
+
+#: STATS_LOESS.R:192
+msgid "Not saved"
+msgstr ""
+"Non salvato"
+
+#: STATS_LOESS.R:195
+msgid "Values"
+msgstr ""
+"Valori"
+
+#: STATS_LOESS.R:204
+msgid "Model Source"
+msgstr ""
+"Origine modello"
+
+#: STATS_LOESS.R:208
+msgid "LOESS Fit"
+msgstr ""
+"Adattamento LOESS"
+
+#: STATS_LOESS.R:210
+msgid "Settings and Statistics for Variable %s"
+msgstr ""
+"Impostazioni e statistiche per variabile %s"
+
+#: STATS_LOESS.R:212
+msgid "Summary"
+msgstr ""
+"Riepilogo"
+
+#: STATS_LOESS.R:213
+msgid "Predictors: %s"
+msgstr ""
+"Predittori: %s"
+
+#: STATS_LOESS.R:213
+msgid "Calculated by R function loess"
+msgstr ""
+"Calcolato dalla funzione R loess"
+
+#: STATS_LOESS.R:227
+msgid "New x values must be specified if using a model loaded from a file"
+msgstr ""
+"Devono essere specificati i nuovi valori x se si utilizza un modello caricato da un file"
+
+#: STATS_LOESS.R:271
+msgid "Predicted Values"
+msgstr ""
+"Valori previsti"
+
+#: STATS_LOESS.R:273
+msgid "Standard Errors"
+msgstr ""
+"Errori standard"
+
+#: STATS_LOESS.R:279
+msgid "Failed to create prediction dataset. Dataset name must not already exist: "
+msgstr ""
+"Creazione del dataset di previsioni non riuscita. Il nome del dataset non deve esistere già: "
+
+#: STATS_LOESS.R:303
+msgid "As many consecutive x specifications must be supplied as there are variables in the model"
+msgstr ""
+"È necessario fornire tante specifiche x consecutive quante sono le variabili nel modello"
+
+#: STATS_LOESS.R:332
+msgid "Cannot specify both a sequence and a list form for the same x variable"
+msgstr ""
+"Impossibile specificare sia una sequenza che un formato elenco per la stessa variabile x"
+
+#: STATS_LOESS.R:341
+msgid "Invalid x sequence specification: %s"
+msgstr ""
+"Specifica sequenza x non valida: %s"
+
+
