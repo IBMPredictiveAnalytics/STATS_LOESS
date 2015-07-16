@@ -1,0 +1,16 @@
+Name: STATS LOESS
+Dialog-Specs: STATS_LOESS.spd
+Command-Specs: STATS_LOESS.xml
+Code-Files: STATS_LOESS.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Fit a loess curve to a model
+Description: This procedure fits a loess curve to a model with one to 
+ four independent variables and creates a new dataset.  The dataset co
+ ntains the predicted values for the estimation data or new data as we
+ ll as the prediction input data.
+Author: JKP, IBM SPSS
+Version: 1.0.4
+Product-Version: 18
+Date: 12/07/12
+Categories: spss statistics loess regression
+Plugins: R
