@@ -1,0 +1,206 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LOESS.R:148
+msgid "The active dataset must have a name, because otherwise it would be closed by this procedure"
+msgstr ""
+"У активного набора данных должно быть имя, поскольку в противном случае он будет закрыто этой процедурой"
+
+#: STATS_LOESS.R:151
+msgid "Dependent and independent variables must be specified unless loading a saved model"
+msgstr ""
+"Должны быть заданы зависимые и независимые переменные (если только не загружается сохраненная модель)"
+
+#: STATS_LOESS.R:154
+msgid "Cannot save and load model at the same time"
+msgstr ""
+"Одновременно невозможно сохранить и загрузить модель"
+
+#: STATS_LOESS.R:157
+msgid "Cannot specify model variables if loading a saved model"
+msgstr ""
+"Невозможно задать переменные модели, если загружается сохраненная модель"
+
+#: STATS_LOESS.R:162
+msgid "A maximum of four independent variables can be specified"
+msgstr ""
+"Можно задать не более четырех независимых переменных"
+
+#: STATS_LOESS.R:174
+msgid "All variables must be scale level numeric: %s"
+msgstr ""
+"Все переменные должны быть числовыми переменными уровня масштабирования: %s"
+
+#: STATS_LOESS.R:183
+msgid "Output Dataset"
+msgstr ""
+"Выходной набор данных"
+
+#: STATS_LOESS.R:183
+msgid "Alpha"
+msgstr ""
+"Альфа"
+
+#: STATS_LOESS.R:183
+msgid "Polynomial Degree"
+msgstr ""
+"Степень полинома"
+
+#: STATS_LOESS.R:183
+msgid "Interactions Level"
+msgstr ""
+"Уровень взаимодействий"
+
+#: STATS_LOESS.R:184
+msgid "Family"
+msgstr ""
+"Семейство"
+
+#: STATS_LOESS.R:184
+msgid "Normalize"
+msgstr ""
+"Нормализовать"
+
+#: STATS_LOESS.R:184
+msgid "Surface"
+msgstr ""
+"Поверхность"
+
+#: STATS_LOESS.R:184
+msgid "Cell"
+msgstr ""
+"Ячейка"
+
+#: STATS_LOESS.R:184
+msgid "Missing Values"
+msgstr ""
+"Пропущенные значения"
+
+#: STATS_LOESS.R:184
+msgid "Statistics Computation"
+msgstr ""
+"Вычисление статистики"
+
+#: STATS_LOESS.R:185
+msgid "Number of Observations"
+msgstr ""
+"Число наблюдений"
+
+#: STATS_LOESS.R:185
+msgid "Equivalent Number of Parameters"
+msgstr ""
+"Эквивалентное число параметров"
+
+#: STATS_LOESS.R:185
+msgid "Residual Standard Error"
+msgstr ""
+"Стандартная ошибка остатков"
+
+#: STATS_LOESS.R:186
+msgid "Model to Be Saved As"
+msgstr ""
+"Модель, сохраняемая как"
+
+#: STATS_LOESS.R:189
+msgid "Yes"
+msgstr ""
+"Да"
+
+#: STATS_LOESS.R:189
+msgid "No"
+msgstr ""
+"Нет"
+
+#: STATS_LOESS.R:192
+msgid "Not saved"
+msgstr ""
+"Не сохранено"
+
+#: STATS_LOESS.R:195
+msgid "Values"
+msgstr ""
+"Значения"
+
+#: STATS_LOESS.R:204
+msgid "Model Source"
+msgstr ""
+"Источник модели"
+
+#: STATS_LOESS.R:208
+msgid "LOESS Fit"
+msgstr ""
+"Подгонка LOESS"
+
+#: STATS_LOESS.R:210
+msgid "Settings and Statistics for Variable %s"
+msgstr ""
+"Параметры и статистики для переменной %s"
+
+#: STATS_LOESS.R:212
+msgid "Summary"
+msgstr ""
+"Итог"
+
+#: STATS_LOESS.R:213
+msgid "Predictors: %s"
+msgstr ""
+"Предикторы: %s"
+
+#: STATS_LOESS.R:213
+msgid "Calculated by R function loess"
+msgstr ""
+"Вычисляется функцией R loess"
+
+#: STATS_LOESS.R:227
+msgid "New x values must be specified if using a model loaded from a file"
+msgstr ""
+"В случае использования модели, загружаемой из файла, должны быть заданы новые значения x"
+
+#: STATS_LOESS.R:271
+msgid "Predicted Values"
+msgstr ""
+"Предсказанные значения"
+
+#: STATS_LOESS.R:273
+msgid "Standard Errors"
+msgstr ""
+"Стандартные ошибки"
+
+#: STATS_LOESS.R:279
+msgid "Failed to create prediction dataset. Dataset name must not already exist: "
+msgstr ""
+"Не удалось создать набор данных предсказания. Набор данных с таким именем не может уже существовать."
+
+#: STATS_LOESS.R:303
+msgid "As many consecutive x specifications must be supplied as there are variables in the model"
+msgstr ""
+"Нужно указать столько последовательных спецификаций x, сколько содержится переменных в модели."
+
+#: STATS_LOESS.R:332
+msgid "Cannot specify both a sequence and a list form for the same x variable"
+msgstr ""
+"Для одной и той же переменной x невозможно задать сразу и последовательность, и форму списка"
+
+#: STATS_LOESS.R:341
+msgid "Invalid x sequence specification: %s"
+msgstr ""
+"Недопустимая спецификация последовательности x: %s"
+
+
