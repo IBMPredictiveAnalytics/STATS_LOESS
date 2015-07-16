@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS LOESS Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS LOESS Extension Command</h1>
+
+<p>This command fits a loess regression model.  It fits a low order polynomial to
+local subsets of the data with the weight of the points diminishing as the distance
+from the center point increases.</p>
+<div class="syntax">
+<p>STATS LOESS DEPENDENT=<em>dependent variable</em><sup>&#42;</sup>
+INDEPENDENT=<em>independent variables</em>
+INTERACTIONS=integer</p>
+
+<p>/OPTIONS MISSING=OMIT<sup>&#42;&#42;</sup> or FAIL ALPHA=<em>number</em> DEGREE=<em>polynomialdegree</em>
+NORMALIZE = YES<sup>&#42;&#42;</sup> or NO FAMILY = GAUSSIAN<sup>&#42;&#42;</sup> or SYMMETRIC
+SURFACE = INTERPOLATE<sup>&#42;&#42;</sup> or DIRECT STATISTICS = APPROXIMATE<sup>&#42;&#42;</sup> or EXACT</p>
+
+<p>/PREDICTIONS DATASET=<em>dataset</em>
+X1SEQ = <em>number number number</em> &hellip; X4SEQ = <em>number number number</em>
+X1LIST = <em>number &hellip; number</em> X4NUMBER = <em>number &hellip; number</em>
+STDERRORS = {NO<sup>&#42;&#42;</sup> or YES</p>
+
+<p>/MODELFILE SAVEMODEL=:&ldquo;<em>filespec</em>&rdquo; LOADMODELMODEL=&ldquo;<em>filespec</em>&rdquo;</p>
+
+<p>/HELP.</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS LOESS /HELP displays this text and does nothing else.</p>
+
+<pre class="example"><code>STATS LOESS DEPENDENT=salary INDEPENDENT=jobtime prevexp
+/PREDICTIONS DATASET=loess.
+</code></pre>
+
+<p>The command can be used in two ways.  The first fits a model, creates a prediction
+dataset, and optionally saves the fitted model.  The second uses a previously 
+saved model to produce a new prediction dataset.  For the second case, the 
+keywords for specifying the model and the entire OPTIONS subcommand are
+omitted, and the MODELFILE subcommand is used to reference a previously 
+saved model.</p>
+
+<p><strong>DEPENDENT</strong> and <strong>INDEPENDENT</strong> name the variables in the model.  There must
+be one to four independent variables.  Variables must all be scale-level numeric.</p>
+
+<p><strong>INTERACTIONS</strong> indicates what interaction terms are included in the model.
+A value of 1 means main effects only; 2 means all two-way interactions and so on.
+The default value is 1.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>MISSING</strong> indicates whether cases with missing values are ignored or whether
+they cause the procedure to stop.  Predictions will have SYSMIS values
+where inputs are missing.</p>
+
+<p><strong>ALPHA</strong> indicates the amount of smoothing used for the loess fit, e.g., alpha=.5
+causes a span of 50% of the data to be used.  Alpha can exceed 1, which 
+uses all the cases at each point but slows the decay of the weights.</p>
+
+<p><strong>DEGREE</strong> is the degree of the polynomials that are fitted.  It can be 0, 1, or 2.
+A value of 0 means local constant fitting, but the R documentation says to use
+this setting &ldquo;with caution&rdquo;.</p>
+
+<p><strong>NORMALIZE</strong> = YES causes the predictors to be normalized to a common scale
+if there is more than one.</p>
+
+<p><strong>FAMILY</strong> determines whether fitting is by least squares (Gaussian) or by
+&ldquo;a re-descending M estimator with the Tukey biweight function&rdquo;.</p>
+
+<p><strong>SURFACE</strong> indicates whether to compute the surface exactly or via interpolation.</p>
+
+<p><strong>STATISTICS</strong> indicates whether to compute approximate statistics or exact ones.
+Exact computation is time consuming.</p>
+
+<h2>MODELFILE</h2>
+
+<p>The MODELFILE subcommand allows saving models and using them later.
+<strong>SAVEMODEL</strong> takes a file specification for a model.  It is conventional to 
+use the extension .Rdata for this.</p>
+
+<p><strong>LOADMODEL</strong> specifies a file containing a previously saved model.  When
+used, other model specifications should not be given, and X values must
+be given on the PREDICTION subcommand.  If X values are not given.
+the output will still display the properties of the loaded model.</p>
+
+<h2>PREDICTION</h2>
+
+<p>The PREDICTION subcommand determines what predicted values are
+created.  <strong>DATASET</strong> specifies the name of the dataset.  The name must not
+already be in use.</p>
+
+<p>If there are no <strong>X</strong> specifications, the predicted values for the estimation data
+and, optionally, their standard errors are saved in the dataset along with 
+the dependent and independent variables.  </p>
+
+<p>Alternatively, the X specifications can indicate a different set of points 
+where predictions should be calculated.  X specifications must be
+used when referring to a saved model in order to produce predictions.
+The active dataset is ignored in that case.</p>
+
+<p>These rules.apply to the X specifications.</p>
+
+<ul>
+<li>There must be as many X specifications as there are independent
+variables in the model with X1 corresponding to the first independent variable
+and so on.</li>
+<li>Each X specification can be either a list of values (LIST) or a sequence
+(SEQ).  The sequence specification is a triple of starting value, ending value,
+and increment.  For example, X1SEQ=10 30 10 is equivalent to the values
+10, 20, 30.  If the third number is omitted, it is assumed to be 1.
+Various other shortcuts are allowed.</li>
+<li>If the X specifications are not all the same length, the shorter ones are
+recycled to generate the additional values needed.</li>
+<li>The prediction dataset includes the X values used, the predictions, and,
+optionally, the standard errors.</li>
+</ul>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
