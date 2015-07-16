@@ -1,0 +1,206 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LOESS.R:148
+msgid "The active dataset must have a name, because otherwise it would be closed by this procedure"
+msgstr ""
+"作用中的資料集必須具有名稱，因為它將由此程序關閉"
+
+#: STATS_LOESS.R:151
+msgid "Dependent and independent variables must be specified unless loading a saved model"
+msgstr ""
+"必須指定依變數及自變數，除非載入儲存的模型"
+
+#: STATS_LOESS.R:154
+msgid "Cannot save and load model at the same time"
+msgstr ""
+"無法同時儲存及載入模型"
+
+#: STATS_LOESS.R:157
+msgid "Cannot specify model variables if loading a saved model"
+msgstr ""
+"在載入儲存的模型時，無法指定模型變數"
+
+#: STATS_LOESS.R:162
+msgid "A maximum of four independent variables can be specified"
+msgstr ""
+"您可以指定最多四個自變數"
+
+#: STATS_LOESS.R:174
+msgid "All variables must be scale level numeric: %s"
+msgstr ""
+"所有變數都必須是比例層次數值：%s"
+
+#: STATS_LOESS.R:183
+msgid "Output Dataset"
+msgstr ""
+"輸出資料集"
+
+#: STATS_LOESS.R:183
+msgid "Alpha"
+msgstr ""
+"α"
+
+#: STATS_LOESS.R:183
+msgid "Polynomial Degree"
+msgstr ""
+"多項式冪次"
+
+#: STATS_LOESS.R:183
+msgid "Interactions Level"
+msgstr ""
+"互動層次"
+
+#: STATS_LOESS.R:184
+msgid "Family"
+msgstr ""
+"系列"
+
+#: STATS_LOESS.R:184
+msgid "Normalize"
+msgstr ""
+"正規化"
+
+#: STATS_LOESS.R:184
+msgid "Surface"
+msgstr ""
+"表面"
+
+#: STATS_LOESS.R:184
+msgid "Cell"
+msgstr ""
+"資料格"
+
+#: STATS_LOESS.R:184
+msgid "Missing Values"
+msgstr ""
+"遺漏值"
+
+#: STATS_LOESS.R:184
+msgid "Statistics Computation"
+msgstr ""
+"統計資料計算"
+
+#: STATS_LOESS.R:185
+msgid "Number of Observations"
+msgstr ""
+"觀察數"
+
+#: STATS_LOESS.R:185
+msgid "Equivalent Number of Parameters"
+msgstr ""
+"參數的當量數"
+
+#: STATS_LOESS.R:185
+msgid "Residual Standard Error"
+msgstr ""
+"殘差標準誤"
+
+#: STATS_LOESS.R:186
+msgid "Model to Be Saved As"
+msgstr ""
+"要儲存的模型"
+
+#: STATS_LOESS.R:189
+msgid "Yes"
+msgstr ""
+"是"
+
+#: STATS_LOESS.R:189
+msgid "No"
+msgstr ""
+"否"
+
+#: STATS_LOESS.R:192
+msgid "Not saved"
+msgstr ""
+"未儲存"
+
+#: STATS_LOESS.R:195
+msgid "Values"
+msgstr ""
+"值"
+
+#: STATS_LOESS.R:204
+msgid "Model Source"
+msgstr ""
+"模型來源"
+
+#: STATS_LOESS.R:208
+msgid "LOESS Fit"
+msgstr ""
+"LOESS 擬合"
+
+#: STATS_LOESS.R:210
+msgid "Settings and Statistics for Variable %s"
+msgstr ""
+"變數 %s 的設定及統計量"
+
+#: STATS_LOESS.R:212
+msgid "Summary"
+msgstr ""
+"摘要"
+
+#: STATS_LOESS.R:213
+msgid "Predictors: %s"
+msgstr ""
+"預報子：%s"
+
+#: STATS_LOESS.R:213
+msgid "Calculated by R function loess"
+msgstr ""
+"由 R 函數 loess 計算"
+
+#: STATS_LOESS.R:227
+msgid "New x values must be specified if using a model loaded from a file"
+msgstr ""
+"如果使用從檔案載入的模型，必須指定 x 個新值"
+
+#: STATS_LOESS.R:271
+msgid "Predicted Values"
+msgstr ""
+"預測值"
+
+#: STATS_LOESS.R:273
+msgid "Standard Errors"
+msgstr ""
+"標準誤"
+
+#: STATS_LOESS.R:279
+msgid "Failed to create prediction dataset. Dataset name must not already exist: "
+msgstr ""
+"無法建立預測資料集。資料集名稱不得為已存在："
+
+#: STATS_LOESS.R:303
+msgid "As many consecutive x specifications must be supplied as there are variables in the model"
+msgstr ""
+"必須提供與模型中變數一樣多的連續 x 個規格"
+
+#: STATS_LOESS.R:332
+msgid "Cannot specify both a sequence and a list form for the same x variable"
+msgstr ""
+"無法指定順序及相同 x 個變數的清單格式"
+
+#: STATS_LOESS.R:341
+msgid "Invalid x sequence specification: %s"
+msgstr ""
+"無效的 x 順序規格：%s"
+
+
