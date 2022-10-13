@@ -1,4 +1,5 @@
 Name: STATS LOESS
+Display-Name: LOESS Curves
 Dialog-Specs: STATS_LOESS.spd
 Command-Specs: STATS_LOESS.xml
 Code-Files: STATS_LOESS.R
@@ -14,3 +15,4 @@ Product-Version: 18
 Date: 12/07/12
 Categories: spss statistics loess regression
 Plugins: R
+Product-Version-Maximum: 99
